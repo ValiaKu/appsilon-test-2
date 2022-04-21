@@ -5,8 +5,6 @@ import { StaticImage } from "gatsby-plugin-image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faTableCellsLarge,
-  faUserPoliceTie,
-  faShieldKeyhole,
   faArrowRightFromBracket,
   faBuilding,
   faFingerprint,
@@ -30,6 +28,7 @@ const Sidebar = ({ siteTitle }) => (
       <StaticImage
         src="../images/girl.png"
         alt="User avatar"
+        class="avatar-img"
         style={{ marginBottom: `1.45rem` }}
       />
       <span class="greeting-text">Hello, Rusalba Ruiz</span>
